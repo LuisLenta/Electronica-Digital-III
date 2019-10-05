@@ -1,0 +1,7 @@
+19:43:59 **** Clean-only build of configuration Debug for project GPIOInterrupt ****
+make -r -j4 clean 
+rm -rf  ./src/GPIOInterrupt.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o  ./src/GPIOInterrupt.d ./src/cr_startup_lpc175x_6x.d ./src/crp.d  GPIOInterrupt.axf
+ 
+
+19:43:59 Build Finished. 0 errors, 0 warnings. (took 312ms)
+

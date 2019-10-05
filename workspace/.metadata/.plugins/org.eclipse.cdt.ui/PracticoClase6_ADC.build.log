@@ -1,0 +1,12 @@
+19:31:43 **** Incremental Build of configuration Debug for project PracticoClase6_ADC ****
+make -r -j4 all 
+Building target: PracticoClase6_ADC.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\src" -L"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\Drivers\src" -Xlinker -Map="PracticoClase6_ADC.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "PracticoClase6_ADC_Debug.ld" -o "PracticoClase6_ADC.axf"  ./src/PracticoClase6_ADC.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o   -lCMSISv2p00_LPC17xx
+c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: cannot find -lCMSISv2p00_LPC17xx
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:32: PracticoClase6_ADC.axf] Error 1
+"make -r -j4 all" terminated with exit code 2. Build might be incomplete.
+
+19:31:43 Build Failed. 2 errors, 0 warnings. (took 508ms)
+

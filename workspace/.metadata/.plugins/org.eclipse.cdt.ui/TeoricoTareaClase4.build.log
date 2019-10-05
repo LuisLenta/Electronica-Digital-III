@@ -1,0 +1,35 @@
+21:18:09 **** Build of configuration Debug for project TeoricoTareaClase4 ****
+make -r -j4 all 
+Building file: ../src/TeoricoTareaClase4.c
+Building file: ../src/cr_startup_lpc175x_6x.c
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\inc" -I"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Drivers\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/TeoricoTareaClase4.d" -MT"src/TeoricoTareaClase4.o" -MT"src/TeoricoTareaClase4.d" -o "src/TeoricoTareaClase4.o" "../src/TeoricoTareaClase4.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\inc" -I"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Drivers\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc175x_6x.d" -MT"src/cr_startup_lpc175x_6x.o" -MT"src/cr_startup_lpc175x_6x.d" -o "src/cr_startup_lpc175x_6x.o" "../src/cr_startup_lpc175x_6x.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -D__REDLIB__ -I"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\inc" -I"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Drivers\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -fstack-usage -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/crp.c
+Finished building: ../src/cr_startup_lpc175x_6x.c
+ 
+Finished building: ../src/TeoricoTareaClase4.c
+ 
+ 
+Building target: TeoricoTareaClase4.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\Drivers" -L"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="TeoricoTareaClase4.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "TeoricoTareaClase4_Debug.ld" -o "TeoricoTareaClase4.axf"  ./src/TeoricoTareaClase4.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o   -lCMSISv2p00_LPC17xx
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        1500 B       512 KB      0.29%
+        RamLoc32:          0 GB        32 KB      0.00%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: TeoricoTareaClase4.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "TeoricoTareaClase4.axf"; # arm-none-eabi-objcopy -v -O binary "TeoricoTareaClase4.axf" "TeoricoTareaClase4.bin" ; # checksum -p LPC1769 -d "TeoricoTareaClase4.bin";
+   text	   data	    bss	    dec	    hex	filename
+   1500	      0	      0	   1500	    5dc	TeoricoTareaClase4.axf
+ 
+
+21:18:14 Build Finished. 0 errors, 0 warnings. (took 4s.867ms)
+

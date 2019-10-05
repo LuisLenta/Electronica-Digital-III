@@ -1,0 +1,20 @@
+23:03:07 **** Incremental Build of configuration Debug for project EjercicioParcial_PWM ****
+make -r -j4 all 
+Building target: EjercicioParcial_PWM.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\Drivers" -L"C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map="EjercicioParcial_PWM.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "EjercicioParcial_PWM_Debug.ld" -o "EjercicioParcial_PWM.axf"  ./src/EjercicioParcial_PWM.o ./src/cr_startup_lpc175x_6x.o ./src/crp.o   -lCMSISv2p00_LPC17xx -lCMSISv2p00_LPC17xx
+Memory region         Used Size  Region Size  %age Used
+       MFlash512:        3708 B       512 KB      0.71%
+        RamLoc32:          12 B        32 KB      0.04%
+        RamAHB32:          0 GB        32 KB      0.00%
+Finished building target: EjercicioParcial_PWM.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "EjercicioParcial_PWM.axf"; # arm-none-eabi-objcopy -v -O binary "EjercicioParcial_PWM.axf" "EjercicioParcial_PWM.bin" ; # checksum -p LPC1769 -d "EjercicioParcial_PWM.bin";
+   text	   data	    bss	    dec	    hex	filename
+   3696	     12	      0	   3708	    e7c	EjercicioParcial_PWM.axf
+ 
+
+23:03:08 Build Finished. 0 errors, 0 warnings. (took 1s.364ms)
+

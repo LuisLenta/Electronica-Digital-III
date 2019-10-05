@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;CMSISv2p00_LPC17xx&apos;" deleteContents="true" description="Delete resource &apos;CMSISv2p00_LPC17xx&apos;" element1="/CMSISv2p00_LPC17xx" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1567534930947"/>&#x0A;<refactoring comment="Delete resource &apos;PracticoClase6_ADC&apos;" deleteContents="false" description="Delete resource &apos;PracticoClase6_ADC&apos;" element1="/PracticoClase6_ADC" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1567722801113"/>
-</session>

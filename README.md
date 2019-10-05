@@ -16,12 +16,10 @@ workspace/GPIOInterrupt/src/GPIOInterrupt.c
 Dentro del archivo, tenemos en el comienzo: 
 
 
-===============================================================================
  Name        : GPIOInterrupt.c
  Author      : $(Luis Lenta)
  Version     :
  Copyright   : $(copyright)
  Description : Blinky de led utilizando interrupciones de GPIO 
-===============================================================================
 
 

@@ -1,0 +1,7 @@
+core_cm3.h:928:22:NVIC_EnableIRQ	16	static
+core_cm3.h:1012:22:NVIC_SetPriority	16	static
+sanchez_tp2.c:21:5:main	8	static
+sanchez_tp2.c:29:6:config	8	static
+sanchez_tp2.c:96:6:EINT3_IRQHandler	8	static
+sanchez_tp2.c:104:6:EINT0_IRQHandler	8	static
+sanchez_tp2.c:112:6:retardo	16	static

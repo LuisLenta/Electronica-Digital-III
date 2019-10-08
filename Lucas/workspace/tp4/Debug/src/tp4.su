@@ -1,0 +1,12 @@
+core_cm3.h:928:22:NVIC_EnableIRQ	16	static
+core_cm3.h:1012:22:NVIC_SetPriority	16	static
+tp4.c:39:6:task_sensor	32	static
+tp4.c:65:6:task_data	24	static
+tp4.c:100:6:task_send	32	static
+tp4.c:130:6:Config	8	static
+tp4.c:143:6:EINT3_IRQHandler	16	static
+tp4.c:160:6:vApplicationTickHook	4	static
+tp4.c:166:7:pcGetTaskStatusMessage	4	static
+tp4.c:173:6:vApplicationStackOverflowHook	16	static
+tp4.c:181:6:vConfigureTimerForRunTimeStats	24	static
+tp4.c:211:5:main	16	static

@@ -125,7 +125,8 @@
 
 /* EMAC ------------------------------ */
 #define _EMAC
-
+#define _CONFIG
+#define _AUX_FUNC
 /************************** GLOBAL/PUBLIC MACRO DEFINITIONS *********************************/
 
 #ifdef  DEBUG

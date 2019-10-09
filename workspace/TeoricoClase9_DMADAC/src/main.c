@@ -1,10 +1,12 @@
 /*
 ===============================================================================
  Name        : TeoricoClase9_DMADAC.c
- Author      : $(author)
+ Author      : $(Luis Lenta)
  Version     :
  Copyright   : $(copyright)
- Description : main definition
+ Description : Generar forma de onda de 100Hz. La misma tiene un periodo de 10ms.
+ 	 	 	   Los primeros 7ms la señal tiene forma de rampa, generada por el DAC a traves del DMA, utilizando 100 datos.
+ 	 	 	   Luego tenemos 3ms sin tension en la salida del DAC.
 ===============================================================================
 */
 
@@ -98,16 +100,11 @@ void crearLista(void){
 	for (int i = 1 ; i < RAMPA; i++)
 			TABLA_DAC[i] = TABLA_DAC[i - 1] + 10;		// Cargo los valores de la rampa
 	for (int i = RAMPA ; i < NUMERO_MUESTRAS ; i++)
-			TABLA_DAC[i] = 0;
+			TABLA_DAC[i] = 0;							// Cargo la parte de la señal que es 0
 }
 void configSYSTICK(void){
 	SYSTICK_InternalInit(10);
 	SYSTICK_IntCmd(ENABLE);
 	SYSTICK_Cmd(ENABLE);
 }
-void SysTick_Handler(void){
-	SYSTICK_ClearCounterFlag();
-	IntStatus prueba = GPDMA_IntGetStatus(GPDMA_STAT_ENABLED_CH, 0);
-	IntStatus prueba2 = GPDMA_IntGetStatus(GPDMA_STAT_INT, 0);
-	IntStatus prueba3 = GPDMA_IntGetStatus(GPDMA_STAT_INTTC, 0);
-}
+

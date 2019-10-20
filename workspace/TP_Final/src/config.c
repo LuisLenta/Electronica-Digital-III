@@ -44,7 +44,7 @@
 
 #ifdef _CONFIG
 
-uint8_t TABLA [10] = { 1, 2 };
+uint8_t TABLA [2] = { 'A', 'B' };
 /* Public Functions ----------------------------------------------------------- */
 /** @addtogroup CONFIG_Public_Functions
  * @{

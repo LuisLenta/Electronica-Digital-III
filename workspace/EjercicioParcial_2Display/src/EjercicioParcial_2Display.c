@@ -112,7 +112,7 @@ void SysTick_Handler(void){
 	}
 }
 void EINT0_IRQHandler(void){
-	EXTI_ClearEXTIFlag(EXTI_EINT0);
+
 
 	if (unidad < 9) {
 		unidad = unidad + 1;
@@ -126,6 +126,10 @@ void EINT0_IRQHandler(void){
 			descena = 0;
 		}
 	}
+	for (int i=0; i<1000000; i++){
+
+	}
+	EXTI_ClearEXTIFlag(EXTI_EINT0);
 }
 void disp1_ON(void){
 	LPC_GPIO2->FIOPIN0 = display[unidad];

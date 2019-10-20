@@ -123,8 +123,12 @@ Discarded input sections
  .text          0x00000000        0x0 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .data          0x00000000        0x0 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .bss           0x00000000        0x0 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .text.GPDMA_IntGetStatus
+                0x00000000       0x64 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .text.GPDMA_ClearIntPending
                 0x00000000       0x4c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .rodata.GPDMA_IntGetStatus.str1.1
+                0x00000000       0x1f C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .debug_macro   0x00000000      0xa9c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .debug_macro   0x00000000       0x1c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .debug_macro   0x00000000       0x2e C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
@@ -136,7 +140,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2c7 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .debug_macro   0x00000000       0x63 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .debug_macro   0x00000000      0x2f1 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
- .debug_macro   0x00000000       0xdd C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00000000       0xeb C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .group         0x00000000        0xc C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
  .group         0x00000000        0xc C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
  .group         0x00000000        0xc C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
@@ -197,6 +201,8 @@ Discarded input sections
                 0x00000000       0x44 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
  .text.SYSTICK_GetCurrentValue
                 0x00000000        0xc C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+ .text.SYSTICK_ClearCounterFlag
+                0x00000000       0x10 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
  .debug_macro   0x00000000      0xa9c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
  .debug_macro   0x00000000       0x1c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
  .debug_macro   0x00000000       0x2e C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
@@ -208,7 +214,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x2c7 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
  .debug_macro   0x00000000       0x63 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
  .debug_macro   0x00000000      0x2f1 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
- .debug_macro   0x00000000       0xdd C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+ .debug_macro   0x00000000       0xeb C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
  .group         0x00000000        0xc C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
  .group         0x00000000        0xc C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
  .group         0x00000000        0xc C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
@@ -349,7 +355,7 @@ END GROUP
                 0x20084000                __top_RamAHB32 = 0x20084000
                 0x20084000                __top_RAM2 = 0x20084000
 
-.text           0x00000000      0xb48
+.text           0x00000000      0xa84
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -358,10 +364,10 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0xb48 LOADADDR (.data)
+                0x000000cc        0x4 LONG 0xa84 LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x000000d4        0x4 LONG 0x24 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0xb48 LOADADDR (.data_RAM2)
+                0x000000d8        0x4 LONG 0xa84 LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
@@ -386,19 +392,20 @@ END GROUP
                 0x00000202                SVC_Handler
                 0x00000208                DebugMon_Handler
                 0x0000020e                PendSV_Handler
-                0x0000021a                UART1_IRQHandler
+                0x00000214                SysTick_Handler
                 0x0000021a                EINT3_IRQHandler
                 0x0000021a                CANActivity_IRQHandler
                 0x0000021a                TIMER3_IRQHandler
                 0x0000021a                UART0_IRQHandler
-                0x0000021a                USBActivity_IRQHandler
+                0x0000021a                UART1_IRQHandler
                 0x0000021a                EINT2_IRQHandler
+                0x0000021a                USBActivity_IRQHandler
                 0x0000021a                IntDefaultHandler
                 0x0000021a                PLL0_IRQHandler
-                0x0000021a                CAN_IRQHandler
                 0x0000021a                I2C0_IRQHandler
-                0x0000021a                SSP0_IRQHandler
                 0x0000021a                I2C1_IRQHandler
+                0x0000021a                SSP0_IRQHandler
+                0x0000021a                I2S_IRQHandler
                 0x0000021a                I2C2_IRQHandler
                 0x0000021a                RTC_IRQHandler
                 0x0000021a                TIMER0_IRQHandler
@@ -411,12 +418,12 @@ END GROUP
                 0x0000021a                SSP1_IRQHandler
                 0x0000021a                USB_IRQHandler
                 0x0000021a                BOD_IRQHandler
-                0x0000021a                PWM1_IRQHandler
+                0x0000021a                PLL1_IRQHandler
                 0x0000021a                WDT_IRQHandler
-                0x0000021a                I2S_IRQHandler
+                0x0000021a                PWM1_IRQHandler
                 0x0000021a                QEI_IRQHandler
                 0x0000021a                EINT0_IRQHandler
-                0x0000021a                PLL1_IRQHandler
+                0x0000021a                CAN_IRQHandler
                 0x0000021a                DMA_IRQHandler
                 0x0000021a                TIMER2_IRQHandler
                 0x0000021a                UART3_IRQHandler
@@ -451,115 +458,106 @@ END GROUP
  .text.configSYSTICK
                 0x00000438       0x1a ./src/main.o
                 0x00000438                configSYSTICK
- .text.SysTick_Handler
-                0x00000452       0x36 ./src/main.o
-                0x00000452                SysTick_Handler
+ *fill*         0x00000452        0x2 ff
  .text.SystemInit
-                0x00000488       0xdc C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
-                0x00000488                SystemInit
+                0x00000454       0xdc C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x00000454                SystemInit
  .text.DAC_Init
-                0x00000564       0x24 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
-                0x00000564                DAC_Init
+                0x00000530       0x24 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+                0x00000530                DAC_Init
  .text.DAC_ConfigDAConverterControl
-                0x00000588       0x4c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
-                0x00000588                DAC_ConfigDAConverterControl
+                0x00000554       0x4c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+                0x00000554                DAC_ConfigDAConverterControl
  .text.DAC_SetDMATimeOut
-                0x000005d4       0x24 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
-                0x000005d4                DAC_SetDMATimeOut
+                0x000005a0       0x24 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+                0x000005a0                DAC_SetDMATimeOut
  .text.GPDMA_Init
-                0x000005f8       0x3c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
-                0x000005f8                GPDMA_Init
+                0x000005c4       0x3c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                0x000005c4                GPDMA_Init
  .text.GPDMA_Setup
-                0x00000634      0x1d4 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
-                0x00000634                GPDMA_Setup
+                0x00000600      0x1d4 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                0x00000600                GPDMA_Setup
  .text.GPDMA_ChannelCmd
-                0x00000808       0x1c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
-                0x00000808                GPDMA_ChannelCmd
- .text.GPDMA_IntGetStatus
-                0x00000824       0x64 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
-                0x00000824                GPDMA_IntGetStatus
+                0x000007d4       0x1c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                0x000007d4                GPDMA_ChannelCmd
  .text.check_failed
-                0x00000888        0x2 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
-                0x00000888                check_failed
- *fill*         0x0000088a        0x2 ff
+                0x000007f0        0x2 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+                0x000007f0                check_failed
+ *fill*         0x000007f2        0x2 ff
  .text.PINSEL_ConfigPin
-                0x0000088c       0x7c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
-                0x0000088c                PINSEL_ConfigPin
+                0x000007f4       0x7c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+                0x000007f4                PINSEL_ConfigPin
  .text.SYSTICK_InternalInit
-                0x00000908       0x48 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
-                0x00000908                SYSTICK_InternalInit
+                0x00000870       0x48 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+                0x00000870                SYSTICK_InternalInit
  .text.SYSTICK_Cmd
-                0x00000950       0x2c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
-                0x00000950                SYSTICK_Cmd
+                0x000008b8       0x2c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+                0x000008b8                SYSTICK_Cmd
  .text.SYSTICK_IntCmd
-                0x0000097c       0x2c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
-                0x0000097c                SYSTICK_IntCmd
- .text.SYSTICK_ClearCounterFlag
-                0x000009a8       0x10 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
-                0x000009a8                SYSTICK_ClearCounterFlag
+                0x000008e4       0x2c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+                0x000008e4                SYSTICK_IntCmd
  .text.CLKPWR_ConfigPPWR
-                0x000009b8       0x34 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
-                0x000009b8                CLKPWR_ConfigPPWR
+                0x00000910       0x34 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+                0x00000910                CLKPWR_ConfigPPWR
  .text.__weak_main
-                0x000009ec        0x4 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
-                0x000009ec                __weak_main
-                0x000009ec                __main
+                0x00000944        0x4 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libcr_c.a(__weak__main.o)
+                0x00000944                __weak_main
+                0x00000944                __main
  .text.__bhs_ui2f
-                0x000009f0       0x26 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(float.o)
-                0x000009f0                __bhs_ui2f
+                0x00000948       0x26 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(float.o)
+                0x00000948                __bhs_ui2f
  .text.__aeabi_ui2f
-                0x00000a16        0x8 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(float.o)
-                0x00000a16                __aeabi_ui2f
+                0x0000096e        0x8 c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(float.o)
+                0x0000096e                __aeabi_ui2f
  .text.__aeabi_fcmpgt
-                0x00000a1e       0x3a c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(float.o)
-                0x00000a1e                __aeabi_fcmpgt
+                0x00000976       0x3a c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(float.o)
+                0x00000976                __aeabi_fcmpgt
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata.DAC_Init.str1.1
-                0x00000a58       0x1d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
- .rodata.GPDMA_IntGetStatus.str1.1
-                0x00000a75       0x1f C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                0x000009b0       0x1d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+ *fill*         0x000009cd        0x3 ff
  .rodata.GPDMA_LUTPerAddr
-                0x00000a94       0x60 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
-                0x00000a94                GPDMA_LUTPerAddr
+                0x000009d0       0x60 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                0x000009d0                GPDMA_LUTPerAddr
  .rodata.GPDMA_LUTPerBurst
-                0x00000af4       0x18 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
-                0x00000af4                GPDMA_LUTPerBurst
+                0x00000a30       0x18 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                0x00000a30                GPDMA_LUTPerBurst
  .rodata.GPDMA_LUTPerWid
-                0x00000b0c       0x18 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
-                0x00000b0c                GPDMA_LUTPerWid
+                0x00000a48       0x18 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                0x00000a48                GPDMA_LUTPerWid
  .rodata.SYSTICK_Cmd.str1.1
-                0x00000b24       0x21 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
-                0x00000b48                . = ALIGN (0x4)
- *fill*         0x00000b45        0x3 ff
+                0x00000a60       0x21 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+                0x00000a84                . = ALIGN (0x4)
+ *fill*         0x00000a81        0x3 ff
 
-.glue_7         0x00000b48        0x0
- .glue_7        0x00000b48        0x0 linker stubs
+.glue_7         0x00000a84        0x0
+ .glue_7        0x00000a84        0x0 linker stubs
 
-.glue_7t        0x00000b48        0x0
- .glue_7t       0x00000b48        0x0 linker stubs
+.glue_7t        0x00000a84        0x0
+ .glue_7t       0x00000a84        0x0 linker stubs
 
-.vfp11_veneer   0x00000b48        0x0
- .vfp11_veneer  0x00000b48        0x0 linker stubs
+.vfp11_veneer   0x00000a84        0x0
+ .vfp11_veneer  0x00000a84        0x0 linker stubs
 
-.v4_bx          0x00000b48        0x0
- .v4_bx         0x00000b48        0x0 linker stubs
+.v4_bx          0x00000a84        0x0
+ .v4_bx         0x00000a84        0x0 linker stubs
 
-.iplt           0x00000b48        0x0
- .iplt          0x00000b48        0x0 ./src/cr_startup_lpc175x_6x.o
+.iplt           0x00000a84        0x0
+ .iplt          0x00000a84        0x0 ./src/cr_startup_lpc175x_6x.o
 
-.rel.dyn        0x00000b48        0x0
- .rel.iplt      0x00000b48        0x0 ./src/cr_startup_lpc175x_6x.o
+.rel.dyn        0x00000a84        0x0
+ .rel.iplt      0x00000a84        0x0 ./src/cr_startup_lpc175x_6x.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000b48                __exidx_start = .
+                0x00000a84                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000b48                __exidx_end = .
-                0x00000b48                _etext = .
+                0x00000a84                __exidx_end = .
+                0x00000a84                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x00000b48
+.data_RAM2      0x2007c000        0x0 load address 0x00000a84
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM2 = .)
  *(.ramfunc.$RAM2)
@@ -578,7 +576,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000       0x24 load address 0x00000b48
+.data           0x10000000       0x24 load address 0x00000a84
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -593,7 +591,7 @@ END GROUP
                 0x10000024                . = ALIGN (0x4)
                 0x10000024                _edata = .
 
-.igot.plt       0x10000024        0x0 load address 0x00000b6c
+.igot.plt       0x10000024        0x0 load address 0x00000aa8
  .igot.plt      0x10000024        0x0 ./src/cr_startup_lpc175x_6x.o
 
 .bss_RAM2       0x2007c000        0x0
@@ -637,68 +635,68 @@ END GROUP
                 0x10008000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
                 0xefff74de                PROVIDE (__valid_user_code_checksum = (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
                 0x00000000                _image_start = LOADADDR (.text)
-                0x00000b6c                _image_end = (LOADADDR (.data) + SIZEOF (.data))
-                0x00000b6c                _image_size = (_image_end - _image_start)
+                0x00000aa8                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00000aa8                _image_size = (_image_end - _image_start)
 OUTPUT(TeoricoClase9_DMADAC.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x30ba
+.debug_info     0x00000000     0x3036
  .debug_info    0x00000000      0x276 ./src/cr_startup_lpc175x_6x.o
  .debug_info    0x00000276       0x40 ./src/crp.o
- .debug_info    0x000002b6      0x476 ./src/main.o
- .debug_info    0x0000072c      0x37d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_info    0x00000aa9      0x3c7 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
- .debug_info    0x00000e70     0x118d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
- .debug_info    0x00001ffd      0x10c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_info    0x00002109      0x5b6 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
- .debug_info    0x000026bf      0x2db C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
- .debug_info    0x0000299a      0x720 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_info    0x000002b6      0x3f2 ./src/main.o
+ .debug_info    0x000006a8      0x37d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00000a25      0x3c7 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+ .debug_info    0x00000dec     0x118d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_info    0x00001f79      0x10c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_info    0x00002085      0x5b6 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+ .debug_info    0x0000263b      0x2db C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+ .debug_info    0x00002916      0x720 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
 
-.debug_abbrev   0x00000000      0xf23
+.debug_abbrev   0x00000000      0xf10
  .debug_abbrev  0x00000000      0x12a ./src/cr_startup_lpc175x_6x.o
  .debug_abbrev  0x0000012a       0x38 ./src/crp.o
- .debug_abbrev  0x00000162      0x1ce ./src/main.o
- .debug_abbrev  0x00000330      0x11c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_abbrev  0x0000044c      0x1ba C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
- .debug_abbrev  0x00000606      0x2b9 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
- .debug_abbrev  0x000008bf       0xb0 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_abbrev  0x0000096f      0x1f1 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
- .debug_abbrev  0x00000b60      0x1aa C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
- .debug_abbrev  0x00000d0a      0x219 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_abbrev  0x00000162      0x1bb ./src/main.o
+ .debug_abbrev  0x0000031d      0x11c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x00000439      0x1ba C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+ .debug_abbrev  0x000005f3      0x2b9 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_abbrev  0x000008ac       0xb0 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_abbrev  0x0000095c      0x1f1 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+ .debug_abbrev  0x00000b4d      0x1aa C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+ .debug_abbrev  0x00000cf7      0x219 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
 
-.debug_aranges  0x00000000      0x288
+.debug_aranges  0x00000000      0x280
  .debug_aranges
                 0x00000000       0x80 ./src/cr_startup_lpc175x_6x.o
  .debug_aranges
                 0x00000080       0x18 ./src/crp.o
  .debug_aranges
-                0x00000098       0x58 ./src/main.o
+                0x00000098       0x50 ./src/main.o
  .debug_aranges
-                0x000000f0       0x28 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+                0x000000e8       0x28 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
  .debug_aranges
-                0x00000118       0x40 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+                0x00000110       0x40 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
  .debug_aranges
-                0x00000158       0x40 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                0x00000150       0x40 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
  .debug_aranges
-                0x00000198       0x20 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+                0x00000190       0x20 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
  .debug_aranges
-                0x000001b8       0x30 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+                0x000001b0       0x30 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
  .debug_aranges
-                0x000001e8       0x48 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+                0x000001e0       0x48 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
  .debug_aranges
-                0x00000230       0x58 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+                0x00000228       0x58 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
 
-.debug_ranges   0x00000000      0x1f8
+.debug_ranges   0x00000000      0x1f0
  .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc175x_6x.o
- .debug_ranges  0x00000070       0x48 ./src/main.o
- .debug_ranges  0x000000b8       0x18 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_ranges  0x000000d0       0x30 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
- .debug_ranges  0x00000100       0x30 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
- .debug_ranges  0x00000130       0x10 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_ranges  0x00000140       0x38 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
- .debug_ranges  0x00000178       0x38 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
- .debug_ranges  0x000001b0       0x48 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_ranges  0x00000070       0x40 ./src/main.o
+ .debug_ranges  0x000000b0       0x18 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x000000c8       0x30 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+ .debug_ranges  0x000000f8       0x30 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_ranges  0x00000128       0x10 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_ranges  0x00000138       0x38 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+ .debug_ranges  0x00000170       0x38 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+ .debug_ranges  0x000001a8       0x48 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
 
-.debug_macro    0x00000000     0x3d99
+.debug_macro    0x00000000     0x3db5
  .debug_macro   0x00000000       0x1d ./src/cr_startup_lpc175x_6x.o
  .debug_macro   0x0000001d      0xaa2 ./src/cr_startup_lpc175x_6x.o
  .debug_macro   0x00000abf       0x1a ./src/crp.o
@@ -724,51 +722,51 @@ OUTPUT(TeoricoClase9_DMADAC.axf elf32-littlearm)
  .debug_macro   0x00002f1d       0xa9 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
  .debug_macro   0x00002fc6       0x3a C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
  .debug_macro   0x00003000      0x2f1 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
- .debug_macro   0x000032f1       0xdd C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
- .debug_macro   0x000033ce       0xa9 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
- .debug_macro   0x00003477      0x2a8 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
- .debug_macro   0x0000371f       0x5a C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_macro   0x00003779       0x5d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_macro   0x000037d6       0xd7 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_macro   0x000038ad       0x8d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
- .debug_macro   0x0000393a       0x1c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
- .debug_macro   0x00003956      0x2c7 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
- .debug_macro   0x00003c1d       0xa9 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
- .debug_macro   0x00003cc6       0x46 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
- .debug_macro   0x00003d0c       0x8d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_macro   0x000032f1       0xeb C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+ .debug_macro   0x000033dc       0xa9 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x00003485      0x2a8 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_macro   0x0000372d       0x5a C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x00003787       0x5d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x000037e4       0xe5 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_macro   0x000038c9       0x8d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00003956       0x1c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00003972      0x2c7 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+ .debug_macro   0x00003c39       0xa9 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+ .debug_macro   0x00003ce2       0x46 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+ .debug_macro   0x00003d28       0x8d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
 
-.debug_line     0x00000000     0x235b
+.debug_line     0x00000000     0x233c
  .debug_line    0x00000000      0x160 ./src/cr_startup_lpc175x_6x.o
  .debug_line    0x00000160       0xb1 ./src/crp.o
- .debug_line    0x00000211      0x4b7 ./src/main.o
- .debug_line    0x000006c8      0x42c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_line    0x00000af4      0x418 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
- .debug_line    0x00000f0c      0x621 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
- .debug_line    0x0000152d      0x223 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_line    0x00001750      0x378 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
- .debug_line    0x00001ac8      0x423 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
- .debug_line    0x00001eeb      0x470 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_line    0x00000211      0x498 ./src/main.o
+ .debug_line    0x000006a9      0x42c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x00000ad5      0x418 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+ .debug_line    0x00000eed      0x621 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_line    0x0000150e      0x223 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_line    0x00001731      0x378 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+ .debug_line    0x00001aa9      0x423 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+ .debug_line    0x00001ecc      0x470 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
 
-.debug_str      0x00000000     0xcf72
+.debug_str      0x00000000     0xcf6f
  .debug_str     0x00000000     0x2fb1 ./src/cr_startup_lpc175x_6x.o
                                0x2fc4 (size before relaxing)
  .debug_str     0x00002fb1       0xe9 ./src/crp.o
                                0x2ed1 (size before relaxing)
- .debug_str     0x0000309a     0x7cc4 ./src/main.o
-                               0xab3a (size before relaxing)
- .debug_str     0x0000ad5e      0x57e C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_str     0x0000309a     0x7c32 ./src/main.o
+                               0xaa98 (size before relaxing)
+ .debug_str     0x0000accc      0x57e C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
                                0x89cf (size before relaxing)
- .debug_str     0x0000b2dc     0x144a C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
-                               0x9d9a (size before relaxing)
- .debug_str     0x0000c726      0x438 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
-                               0xb43b (size before relaxing)
- .debug_str     0x0000cb5e       0x2d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
-                               0x47f2 (size before relaxing)
- .debug_str     0x0000cb8b      0x211 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+ .debug_str     0x0000b24a     0x145e C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+                               0x9dae (size before relaxing)
+ .debug_str     0x0000c6a8      0x4b3 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+                               0xb44f (size before relaxing)
+ .debug_str     0x0000cb5b       0x2d C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+                               0x4806 (size before relaxing)
+ .debug_str     0x0000cb88      0x211 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
                                0x8e62 (size before relaxing)
- .debug_str     0x0000cd9c       0xc7 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
-                               0x9d6a (size before relaxing)
- .debug_str     0x0000ce63      0x10f C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_str     0x0000cd99       0xc7 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+                               0x9d7e (size before relaxing)
+ .debug_str     0x0000ce60      0x10f C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
                                0x9bda (size before relaxing)
 
 .comment        0x00000000       0x75
@@ -813,16 +811,16 @@ OUTPUT(TeoricoClase9_DMADAC.axf elf32-littlearm)
  .ARM.attributes
                 0x000001f5       0x2d c:/nxp/mcuxpressoide_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/tools/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libcr_eabihelpers.a(float.o)
 
-.debug_frame    0x00000000      0x598
+.debug_frame    0x00000000      0x574
  .debug_frame   0x00000000      0x170 ./src/cr_startup_lpc175x_6x.o
- .debug_frame   0x00000170      0x11c ./src/main.o
- .debug_frame   0x0000028c       0x3c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
- .debug_frame   0x000002c8       0x98 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
- .debug_frame   0x00000360       0x90 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
- .debug_frame   0x000003f0       0x20 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
- .debug_frame   0x00000410       0x50 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
- .debug_frame   0x00000460       0x98 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
- .debug_frame   0x000004f8       0xa0 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
+ .debug_frame   0x00000170       0xf8 ./src/main.o
+ .debug_frame   0x00000268       0x3c C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x000002a4       0x98 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
+ .debug_frame   0x0000033c       0x90 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
+ .debug_frame   0x000003cc       0x20 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_libcfg_default.o)
+ .debug_frame   0x000003ec       0x50 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_pinsel.o)
+ .debug_frame   0x0000043c       0x98 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
+ .debug_frame   0x000004d4       0xa0 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
 
 .debug_loc      0x00000000      0x8f9
  .debug_loc     0x00000000      0x216 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_dac.o)
@@ -871,7 +869,6 @@ GPDMA_ClearIntPending                             C:\Users\Luis Lenta\Documents\
 GPDMA_Init                                        C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
                                                   ./src/main.o
 GPDMA_IntGetStatus                                C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
-                                                  ./src/main.o
 GPDMA_LUTPerAddr                                  C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
 GPDMA_LUTPerBurst                                 C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
 GPDMA_LUTPerWid                                   C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_gpdma.o)
@@ -903,7 +900,6 @@ SSP0_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 SSP1_IRQHandler                                   ./src/cr_startup_lpc175x_6x.o
 SVC_Handler                                       ./src/cr_startup_lpc175x_6x.o
 SYSTICK_ClearCounterFlag                          C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
-                                                  ./src/main.o
 SYSTICK_Cmd                                       C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
                                                   ./src/main.o
 SYSTICK_ExternalInit                              C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
@@ -912,8 +908,7 @@ SYSTICK_IntCmd                                    C:\Users\Luis Lenta\Documents\
                                                   ./src/main.o
 SYSTICK_InternalInit                              C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)
                                                   ./src/main.o
-SysTick_Handler                                   ./src/main.o
-                                                  ./src/cr_startup_lpc175x_6x.o
+SysTick_Handler                                   ./src/cr_startup_lpc175x_6x.o
 SystemCoreClock                                   C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(system_LPC17xx.o)
                                                   C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_clkpwr.o)
                                                   C:\Users\Luis Lenta\Documents\MCUXpressoIDE_11.0.0_2516\workspace\CMSISv2p00_LPC17xx\Debug\libCMSISv2p00_LPC17xx.a(lpc17xx_systick.o)

@@ -6,6 +6,6 @@ EjercicioParcial_2Display.c:64:6:configPINSEL	24	static
 EjercicioParcial_2Display.c:90:6:configSYSTICK	8	static
 EjercicioParcial_2Display.c:96:6:configGPIO	16	static
 EjercicioParcial_2Display.c:104:6:SysTick_Handler	16	static
-EjercicioParcial_2Display.c:114:6:EINT0_IRQHandler	8	static
-EjercicioParcial_2Display.c:130:6:disp1_ON	8	static
-EjercicioParcial_2Display.c:135:6:disp2_ON	8	static
+EjercicioParcial_2Display.c:114:6:EINT0_IRQHandler	16	static
+EjercicioParcial_2Display.c:134:6:disp1_ON	8	static
+EjercicioParcial_2Display.c:139:6:disp2_ON	8	static

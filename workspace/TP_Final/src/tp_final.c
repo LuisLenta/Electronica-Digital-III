@@ -29,12 +29,14 @@ int main(void) {
 
 void EINT0_IRQHandler(void) {
 	EXTI_ClearEXTIFlag(EXTI_EINT0);				// Flag off
-	redLedOn();
+	CONFIG_gpdmaConfig();
+	//redLedOn();
 
 }
 
 void EINT1_IRQHandler(void) {
 	EXTI_ClearEXTIFlag(EXTI_EINT1);				// Flag off
+
 	greenLedOn();
 
 }
